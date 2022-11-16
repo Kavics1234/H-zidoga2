@@ -1,5 +1,5 @@
-@include('layouts.master' )
-@extends('menu')
+@include('layouts.master')
+@include('menu')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +9,6 @@
     <title>Document</title>
 </head>
 <body>
-    
+    xdddd
 </body>
 </html>

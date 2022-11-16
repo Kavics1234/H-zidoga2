@@ -1,7 +1,7 @@
 @include('layouts.master')
 @include('menu')
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +13,7 @@
         <div class="row">
             <div class="col-12">
                 <form method="post">
+                    @csrf
                     <label for="nev">Tulajdonos neve: </label>
                     <input type="text" name="nev" id="nev"><br>
                     <label for="tulajdonkez">Tulajdonjog kezdete: </label>
@@ -24,5 +25,5 @@
             </div>
         </div>
     </div>
-</body>
+</body> 
 </html>

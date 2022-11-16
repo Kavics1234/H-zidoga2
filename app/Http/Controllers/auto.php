@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\DB;
 
 class auto extends Controller
 {
-    public function getContent(){
+    public function auto(){
         return view('auto');
     }
 }

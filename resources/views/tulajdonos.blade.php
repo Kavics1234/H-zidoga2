@@ -1,4 +1,5 @@
-@include('layouts.master')
+@extends('layouts.master')
+@section("content")
 @include('menu')
 <!DOCTYPE html>
 <html lang="hu">
@@ -27,3 +28,4 @@
     </div>
 </body> 
 </html>
+@endsection

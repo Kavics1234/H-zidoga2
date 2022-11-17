@@ -1,4 +1,4 @@
-@include('layyouts.master')
+@extends('layyouts.master')
 @include('menu')
 <!DOCTYPE html>
 <html lang="en">
